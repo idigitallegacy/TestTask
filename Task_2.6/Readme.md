@@ -30,15 +30,19 @@
 #### Одна нота
 Консольные данные:
 ![image](https://user-images.githubusercontent.com/99473127/179405814-07d435e8-4475-4a3e-9a6c-a3f465ef65f2.png)
+
 Аудиоспектр:
 ![image](https://user-images.githubusercontent.com/99473127/179405853-28a886e6-4f69-44b0-adbf-76cf50bb6f8e.png)
+
 Форма звуковой волны:
 ![image](https://user-images.githubusercontent.com/99473127/179405870-503d5171-377e-4304-b567-7057a85287e6.png)
 
 #### Несколько нот
 Консольные данные:
 ![image](https://user-images.githubusercontent.com/99473127/179406225-9b836b2d-db56-47c2-9bfd-7c443e2001c0.png)
+
 Аудиоспектр:
 ![image](https://user-images.githubusercontent.com/99473127/179406282-005247e7-ad6c-47a2-ab53-bb0004182caa.png)
+
 Форма звуковой волны на стыке нот:
 ![image](https://user-images.githubusercontent.com/99473127/179406446-48a5910a-ae97-4243-aeda-917410e5d2cd.png)
