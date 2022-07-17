@@ -4,10 +4,11 @@
 
 #include "WAVOutputGenerator.h"
 
-WAVOutputGenerator::WAVOutputGenerator(const std::string &filename, WAVOutputGenerator::sampleRate_t sampleRate)
+WAVOutputGenerator::WAVOutputGenerator(const std::string &filename, WAVOutputGenerator::sampleRate_t sampleRate, bool stereo)
         : stream_(filename, std::ios::out | std::ios::binary)
         , sampleRate_(sampleRate)
-        , soundwave_() {
+        , soundwave_()
+        , stereo_(stereo) {
     if (!stream_.is_open())
         throw IOException("Unable to open file", IOException::ECODE::UNABLE_TO_OPEN_FILE);
 
@@ -35,7 +36,7 @@ void WAVOutputGenerator::write_wav_header() {
     header.TagList.fileSize   = (int32_t) (36 + soundwave_.size() * frameSize);
     header.TagList.blockSize  = 16;
     header.TagList.audioType  = 1;
-    header.TagList.nChannels  = 1;
+    header.TagList.nChannels  = stereo_ ? 2 : 1;
     header.TagList.sampleRate = sampleRate_;
     header.TagList.byteRate   = sampleRate_ * frameSize;
     header.TagList.frameSize  = (uint8_t) frameSize;

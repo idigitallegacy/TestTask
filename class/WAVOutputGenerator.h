@@ -21,7 +21,10 @@ private:
     std::ofstream   stream_;
     sampleRate_t    sampleRate_;
     soundwave_t     soundwave_;
+    bool            stereo_;
 
+
+    // WAV header markdown
     union BinaryHeader {
         struct TL_s {
             int32_t  RIFF        : 32;
@@ -39,20 +42,21 @@ private:
             int32_t  dataSize    : 32;
         };
 
+        // Default definitions
         TL_s TagList {
-                .RIFF = 0x46464952,
-                .fileSize = 0x0,
-                .WAVE = 0x45564157,
-                .frm_ = 0x20746D66,
-                .blockSize = 0x0,
-                .audioType = 0x0,
-                .nChannels = 0x0,
-                .sampleRate = 0x0,
-                .byteRate = 0x0,
-                .frameSize = 0x0,
-                .bitDepth = 0x0,
-                .DATA = 0x61746164,
-                .dataSize = 0x0
+                .RIFF       = 0x46464952,
+                .fileSize   = 0x00000000,
+                .WAVE       = 0x45564157,
+                .frm_       = 0x20746D66,
+                .blockSize  = 0x00000000,
+                .audioType  = 0x00000000,
+                .nChannels  = 0x00000000,
+                .sampleRate = 0x00000000,
+                .byteRate   = 0x00000000,
+                .frameSize  = 0x00000000,
+                .bitDepth   = 0x00000000,
+                .DATA       = 0x61746164,
+                .dataSize   = 0x00000000
         };
 
         int8_t data[44];
@@ -65,12 +69,15 @@ private:
     };
 
 protected:
-    explicit WAVOutputGenerator(const std::string &filename, sampleRate_t sampleRate = 48000);
+    // Opens ofstream(filename) and sets sample rate and mono/stereo sound
+    explicit WAVOutputGenerator(const std::string &filename, sampleRate_t sampleRate = 48000, bool stereo = false);
 
+    // Push some audiowave into track
     void addNote(const soundwave_t &note);
 
     void write_wav_header();
 
+    // Saves track
     void SaveWave();
 
     ~WAVOutputGenerator() {
