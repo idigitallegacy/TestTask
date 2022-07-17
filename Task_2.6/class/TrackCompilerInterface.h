@@ -19,6 +19,7 @@ protected:
     typedef std::vector<raw_data_t> soundwave_t;
 
     soundwave_t soundwave_;
+    soundwave_t last_note_;
     sampleRate_t sampleRate_;
 
     virtual void normalize_data();
@@ -28,7 +29,11 @@ public:
 
     virtual void generate_note(frequency_t frequency, double duration) = 0;
 
+    virtual soundwave_t get_note() = 0;
+
     virtual void save_track() = 0;
+
+    virtual ~TrackCompilerInterface() = default;
 };
 
 #endif //TESTTASK_TRACKCOMPILERINTERFACE_H

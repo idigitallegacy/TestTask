@@ -32,7 +32,7 @@ void WAVOutputGenerator::addNote(const WAVOutputGenerator::soundwave_t &note) {
 
 void WAVOutputGenerator::write_wav_header() {
     BinaryHeader header;
-    auto frameSize = (int8_t)(16 / 8);
+    auto frameSize = (int8_t) (stereo_ ? 32 / 8 : 16 / 8);
     header.TagList.fileSize   = (int32_t) (36 + WAV_soundwave_.size() * frameSize);
     header.TagList.blockSize  = 16;
     header.TagList.audioType  = 1;
