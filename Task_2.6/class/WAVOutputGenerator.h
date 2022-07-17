@@ -20,7 +20,7 @@ private:
 
     std::ofstream   stream_;
     sampleRate_t    sampleRate_;
-    soundwave_t     soundwave_;
+    soundwave_t     WAV_soundwave_;
     bool            stereo_;
 
 
