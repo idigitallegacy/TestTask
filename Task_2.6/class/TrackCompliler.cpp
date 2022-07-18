@@ -8,6 +8,15 @@ void TrackCompiler::generate_note(TrackCompilerInterface::frequency_t frequency,
     noise_.resize((size_t) (sampleRate_ / frequency));
     soundwave_.resize((size_t) (sampleRate_ * duration));
 
+    if (frequency == 0) {
+        for (auto &i : soundwave_)
+            i = 0;
+        addNote(soundwave_);
+        last_note_ = soundwave_;
+        clear();
+        return;
+    }
+
     generate_noise();
     import_noise_to_soundwave();
     z_delay_function();
@@ -15,6 +24,7 @@ void TrackCompiler::generate_note(TrackCompilerInterface::frequency_t frequency,
     normalize_data();
 
     addNote(soundwave_);
+    last_note_ = soundwave_;
 
     clear();
 }

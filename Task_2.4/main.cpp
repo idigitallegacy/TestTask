@@ -1,7 +1,7 @@
-#include <iostream>
-#include <string>
-
-#include "class/TrackCompliler.h"
+//
+// Created by elfxe on 17.07.2022.
+//
+#include "class/StereoSoundGenerator.h"
 
 int main() {
     int sample_rate;
@@ -13,22 +13,23 @@ int main() {
     std::cout << "Enter path to file *.wav (to save data, e.g. \"./sound.wav\"): ";
     std::cin >> filepath;
 
-
     try {
-        TrackCompiler compiler(sample_rate, filepath);
+        StereoSoundGenerator generator(sample_rate, filepath);
 
-        std::cout << "Input data format: <frequncy (Hz)> <duration (s)>\n"
-                     "\t Example: 246.94 3.0 // generates string 3.0s sound with frequency 246.94 Hz\n"
+        std::cout << "Input data format: <frequncy (Hz)> <offset (N)> (N = N * pi/6 rad)\n"
+                     "\t Examples:\n"
+                     "\t 400.0 2.0 // generates string 400 Hz sound, 1.0s + delay_time duration, with offset 2 * pi/6 rad to right (on the right).\n"
+                     "\t 400.0 -6.0 // generates string 400 Hz sound, 1.0s + delat_time duration with offset -6 * Pi/6 rad to left (on the back).\n"
                      "Type \"exit\" to finish the program and save track.\n";
 
         std::string frequency;
-        std::string duration;
+        std::string offset;
         while (std::cin >> frequency && frequency != "exit") {
-            std::cin >> duration;
-            compiler.generate_note(std::stod(frequency), std::stod(duration));
+            std::cin >> offset;
+            generator.generate_note(std::stod(frequency), (M_PI_2 / 3) * std::stod(offset));
         }
         if (frequency == "exit") {
-            compiler.save_track();
+            generator.save_track();
             std::cout << "Track has been saved to: " + filepath << '\n';
         }
     } catch (IOException &e) {
@@ -40,6 +41,5 @@ int main() {
                      "\te.what(): " << e.what() <<'\n';
         return EXIT_FAILURE;
     }
-
     return EXIT_SUCCESS;
 }

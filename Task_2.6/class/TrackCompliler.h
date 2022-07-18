@@ -9,6 +9,12 @@
 
 class TrackCompiler : public TrackCompilerInterface {
 private:
+    typedef double  raw_data_t;
+    typedef int16_t data_t;
+    typedef double  frequency_t;
+    typedef int32_t sampleRate_t;
+    typedef std::vector<raw_data_t> soundwave_t;
+
     std::vector<double>  noise_;
 
     // Generates noise sized [-1; 1], length is sampleRate / frequency
@@ -46,6 +52,10 @@ public:
 
     // Joins generate_noise(), z_function(), etc. together
     void generate_note(frequency_t frequency, double duration) override;
+
+    soundwave_t get_note() override {
+        return last_note_;
+    }
 
     // Saves generated melody stored at WAVOutputGenerator class
     void save_track() override {

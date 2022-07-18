@@ -20,4 +20,5 @@ TrackCompilerInterface::TrackCompilerInterface(TrackCompilerInterface::sampleRat
         : WAVOutputGenerator(filename, sampleRate)
         , soundwave_()
         , sampleRate_(sampleRate)
+        , last_note_()
 {}
