@@ -38,8 +38,8 @@ int main() {
     } catch (std::exception &e) {
         std::cerr << "Unknown exception caught\n"
                      "\te.what(): " << e.what() <<'\n';
-        return -1;
+        return EXIT_FAILURE;
     }
 
-    return 0;
+    return EXIT_SUCCESS;
 }
