@@ -50,7 +50,7 @@ void WAVOutputGenerator::write_wav_header() {
 void WAVOutputGenerator::SaveWave() {
     write_wav_header();
 
-    for (auto &element : WAV_soundwave_) { // Начинаем записывать данные из нашего массива.
+    for (auto &element : WAV_soundwave_) {
         DataByte dataByte { .value = (short) (element * 0x7FFF) };
         for (char byte : dataByte.data)
             stream_.put(byte);
