@@ -13,4 +13,7 @@ add_executable(Task_2.4 Task_2.4/main.cpp
         Task_2.6/class/WAVOutputGenerator.cpp Task_2.6/class/WAVOutputGenerator.h
         Task_2.6/class/TrackCompilerInterface.cpp Task_2.6/class/TrackCompilerInterface.h
         Task_2.6/class/TrackCompliler.cpp Task_2.6/class/TrackCompliler.h
-        Task_2.4/class/StereoSoundGeneratorInterface.cpp Task_2.4/class/StereoSoundGeneratorInterface.h Task_2.4/class/StereoSoundGenerator.cpp Task_2.4/class/StereoSoundGenerator.h)
+        Task_2.4/class/StereoSoundGeneratorInterface.cpp Task_2.4/class/StereoSoundGeneratorInterface.h
+        Task_2.4/class/StereoSoundGenerator.cpp Task_2.4/class/StereoSoundGenerator.h)
+
+add_executable(Task_2.3 Task_2.3/main.cpp)
