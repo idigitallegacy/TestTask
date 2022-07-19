@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TestTask"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/CLionProjects/TestTask/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_2.6">
+				<Option output="E:/CLionProjects/TestTask/cmake-build-debug-mingw/Task_2.6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProjects/TestTask/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Task_2.6"/>
+					<CompileFile command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_2.6/fast">
+				<Option output="E:/CLionProjects/TestTask/cmake-build-debug-mingw/Task_2.6.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProjects/TestTask/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Task_2.6/fast"/>
+					<CompileFile command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_2.4">
+				<Option output="E:/CLionProjects/TestTask/cmake-build-debug-mingw/Task_2.4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProjects/TestTask/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Task_2.4"/>
+					<CompileFile command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_2.4/fast">
+				<Option output="E:/CLionProjects/TestTask/cmake-build-debug-mingw/Task_2.4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProjects/TestTask/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Task_2.4/fast"/>
+					<CompileFile command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_2.3">
+				<Option output="E:/CLionProjects/TestTask/cmake-build-debug-mingw/Task_2.3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProjects/TestTask/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Task_2.3"/>
+					<CompileFile command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Task_2.3/fast">
+				<Option output="E:/CLionProjects/TestTask/cmake-build-debug-mingw/Task_2.3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/CLionProjects/TestTask/cmake-build-debug-mingw"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"/>
+					<Add directory="E:/CLion 2022.1.3/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 Task_2.3/fast"/>
+					<CompileFile command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/CLionProjects/TestTask/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/CLionProjects/TestTask/cmake-build-debug-mingw"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/CLion 2022.1.3/bin/mingw/bin/mingw32-make.exe -f &quot;E:/CLionProjects/TestTask/cmake-build-debug-mingw/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.3/main.cpp">
+			<Option target="Task_2.3"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.4/class/StereoSoundGenerator.cpp">
+			<Option target="Task_2.4"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.4/class/StereoSoundGenerator.h">
+			<Option target="Task_2.4"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.4/class/StereoSoundGeneratorInterface.cpp">
+			<Option target="Task_2.4"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.4/class/StereoSoundGeneratorInterface.h">
+			<Option target="Task_2.4"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.4/main.cpp">
+			<Option target="Task_2.4"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.6/class/Exception/IOException.cpp">
+			<Option target="Task_2.6"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.6/class/Exception/IOException.h">
+			<Option target="Task_2.6"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.6/class/TrackCompilerInterface.cpp">
+			<Option target="Task_2.6"/>
+			<Option target="Task_2.4"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.6/class/TrackCompilerInterface.h">
+			<Option target="Task_2.6"/>
+			<Option target="Task_2.4"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.6/class/TrackCompliler.cpp">
+			<Option target="Task_2.6"/>
+			<Option target="Task_2.4"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.6/class/TrackCompliler.h">
+			<Option target="Task_2.6"/>
+			<Option target="Task_2.4"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.6/class/WAVOutputGenerator.cpp">
+			<Option target="Task_2.6"/>
+			<Option target="Task_2.4"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.6/class/WAVOutputGenerator.h">
+			<Option target="Task_2.6"/>
+			<Option target="Task_2.4"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/Task_2.6/main.cpp">
+			<Option target="Task_2.6"/>
+		</Unit>
+		<Unit filename="E:/CLionProjects/TestTask/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
