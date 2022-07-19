@@ -16,7 +16,7 @@
 Для анализа спектра звука использовалась Adobe Audition 2022.
 
 ## Запуск и работа
-Запускается из main.cpp, исполняемый файл - TestTask.exe/TestTask.
+Запускается из main.cpp, исполняемый файл - Task_2.6.exe/Task_2.6.
 #### Входные данные
 1) Ввести частоту дискретизации файла (в Гц)
 2) Ввести путь к файлу (*\*/\*.wav*), чтобы сохранить получившийся трек
@@ -30,25 +30,33 @@
 #### Одна нота
 Консольные данные:
 
-![image](https://user-images.githubusercontent.com/99473127/179405814-07d435e8-4475-4a3e-9a6c-a3f465ef65f2.png)
+![image](https://user-images.githubusercontent.com/99473127/179425011-62fdecc2-27cd-4365-9dfe-322a939112f2.png)
 
-Аудиоспектр:
+Частотный спектр:
 
-![image](https://user-images.githubusercontent.com/99473127/179405853-28a886e6-4f69-44b0-adbf-76cf50bb6f8e.png)
+![image](https://user-images.githubusercontent.com/99473127/179425026-6f67f066-485f-4222-b0c9-b10ea1322c01.png)
+
+Тональный спектр:
+
+![image](https://user-images.githubusercontent.com/99473127/179425034-2f4c8a9f-5ecf-45ac-ad49-ac9c6e088248.png)
 
 Форма звуковой волны:
 
-![image](https://user-images.githubusercontent.com/99473127/179405870-503d5171-377e-4304-b567-7057a85287e6.png)
+![image](https://user-images.githubusercontent.com/99473127/179425129-7b162e4f-ea96-472c-97aa-2c5a7a675dd1.png)
 
 #### Несколько нот
 Консольные данные:
 
-![image](https://user-images.githubusercontent.com/99473127/179406225-9b836b2d-db56-47c2-9bfd-7c443e2001c0.png)
+![image](https://user-images.githubusercontent.com/99473127/179424826-ed7e86a0-33b9-4e43-a965-31e6baa859ac.png)
 
-Аудиоспектр:
+Частотный спектр:
 
-![image](https://user-images.githubusercontent.com/99473127/179406282-005247e7-ad6c-47a2-ab53-bb0004182caa.png)
+![image](https://user-images.githubusercontent.com/99473127/179424845-2fe364cb-1cfb-4b80-a7c1-9c11eff4a586.png)
+
+Тональный спектр:
+
+![image](https://user-images.githubusercontent.com/99473127/179424944-f5d2bbcf-d4a4-49a6-b4d9-ace98227398e.png)
 
 Форма звуковой волны на стыке нот:
 
-![image](https://user-images.githubusercontent.com/99473127/179406446-48a5910a-ae97-4243-aeda-917410e5d2cd.png)
+![image](https://user-images.githubusercontent.com/99473127/179425096-e71e934f-93b7-4131-9a4a-294722f734a0.png)
